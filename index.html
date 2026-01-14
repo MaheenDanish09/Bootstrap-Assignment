@@ -6,20 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Charitify</title>
 
+  <!-- BOOTSTRAP FILES -->
+  <link rel="stylesheet" href="bootstrap files/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap files/bootstrap.min.js">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
   <!-- FONT AWESOME CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <!-- BOOTSTRAP FILES -->
-  <link rel="stylesheet" href="bootstrap files/bootstrap.min.css">
-  <link rel="stylesheet" href="bootstrap files/bootstrap.min.js">
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 
-<!-- GOOGLE FONTS -->
-  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- ANIMATE.CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-<!-- CUSTOM STYLESHEET -->
- <link rel="stylesheet" href="style.css">
+  <!-- CUSTOM STYLESHEET -->
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -41,8 +47,8 @@
 
     </div>
   </nav>
-<!-- HEADER 1 END -->
- <!-- HEADER 2 START -->
+  <!-- HEADER 1 END -->
+  <!-- HEADER 2 START -->
   <nav class="container-fluid navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-lg">
       <img src="images/logo.png" alt="logo">
@@ -53,7 +59,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0 fw-semibold">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Home
             </a>
             <ul class="dropdown-menu">
@@ -65,16 +71,16 @@
             </ul>
           </li>
           <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Causes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Event</a>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Causes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Event</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Pages
             </a>
             <ul class="dropdown-menu">
@@ -89,8 +95,8 @@
               <li><a class="dropdown-item" href="#">404 Not Found</a></li>
             </ul>
           </li>
-         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Blog
             </a>
             <ul class="dropdown-menu">
@@ -109,55 +115,134 @@
               <li><a class="dropdown-item" href="#">Blog Single</a></li>
             </ul>
           </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
         </ul>
-          <button class="btn text-white fw-medium py-2 px-3" type="submit">Donate Now</button>
+        <button class="btn text-white fw-medium py-2 px-3" type="submit">Donate Now</button>
       </div>
     </div>
   </nav>
   <!-- HEADER 2 END -->
-   <!-- HERO START -->
-    <div id="carouselExampleDark" class="carousel carousel-dark slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <!-- HERO START -->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="images/slider-1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block slidertext">
+          <p class="text-white sliderp">Join us today</p>
+          <h1 class="text-white sliderh1">Better Life For People</h1>
+          <p class="text-white sliderp">Help today because tomorrow you may be the one who needs helping! <br>
+            Forget what you can get and see what you can give.</p>
+          <button class="btn text-white fw-medium py-2 px-3" type="submit">Join With Us</button>
+          <button class="btn text-white fw-medium py-2 px-3" type="submit">Donate Now</button>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="images/slider-2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block slidertext">
+          <h1 class="text-white sliderh1">Together we <br> can make a difference</h1>
+          <p class="text-white sliderp">Help today because tomorrow you may be the one who needs helping! <br>
+            Forget what you can get and see what you can give.</p>
+          <button class="btn text-white fw-medium py-2 px-3" type="submit">Join With Us</button>
+          <button class="btn text-white fw-medium py-2 px-3" type="submit">Donate Now</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/slider-3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block slidertext">
+          <p class="text-white sliderp">Join us today</p>
+          <h1 class="text-white sliderh1">Give a little. Change a lot.</h1>
+          <p class="text-white sliderp">Help today because tomorrow you may be the one who needs helping! <br>
+            Forget what you can get and see what you can give.</p>
+          <button class="btn text-white fw-medium py-2 px-3" type="submit">Join With Us</button>
+          <button class="btn text-white fw-medium py-2 px-3" type="submit">Donate Now</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="10000">
-      <img src="images/slider-1.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+  <!-- HERO CARDS -->
+  <div class="cards d-flex">
+    <div class="card" style="width: 25rem;">
+      <div class="card-body">
+        <img src="images/icon-1.png" alt="make donation icon">
+        <h5 class="card-title">Make Donation</h5>
+        <p class="card-text text-light-emphasis">Help today because tomorrow you may be the one who needs helping!</p>
+        <a href="#" class="card-link text-light-emphasis text-decoration-none link">Read More</a>
       </div>
     </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <img src="images/slider-2.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+    <div class="card" style="width: 25rem;">
+      <div class="card-body">
+        <img src="images/icon-2.png" alt="fundraising icon">
+        <h5 class="card-title">Fundraising</h5>
+        <p class="card-text text-light-emphasis">Help today because tomorrow you may be the one who needs helping!</p>
+        <a href="#" class="card-link text-light-emphasis text-decoration-none link">Read More</a>
       </div>
     </div>
-    <div class="carousel-item">
-      <img src="images/slider-3.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+    <div class="card" style="width: 25rem;">
+      <div class="card-body">
+        <img src="images/icon-3.png" alt="become a volunteer icon">
+        <h5 class="card-title">Become A Volunteer</h5>
+        <p class="card-text text-light-emphasis">Help today because tomorrow you may be the one who needs helping!</p>
+        <a href="#" class="card-link text-light-emphasis text-decoration-none link">Read More</a>
       </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-    <!-- HERO END -->
+  <!-- HERO END -->
+  <hr class="opacity-10">
+  <!-- CAUSES SECTION START -->
+   <div class="content">
+  <h2 class="fs-1 my-5 fw-semibold">Recent Causes</h2>
+  <p class="fs-5 fw-normal">Help today because tomorrow you may be the one who <br>
+    needs more helping!</p>
+    </div>
+  <!-- CAUSES CARDS -->
+  <div class="causescards d-flex gap-4">
+    <div class="card xs-padding" style="width: 23rem;">
+      <img src="images/causes-1.jpg" class="card-img-top cardimage position-relative" alt="...">
+      <button class=" btn btn-outline-warning text-light position-absolute ">Donate Now</button>
+      <div class="card-body">
+        <h3 class="card-title">First charity activity of this summer.</h3>
+        <p class="card-text">Help today because tomorrow you may be the one who needs more helping!</p>
+        <div class="figure d-flex gap-3"><p><i class="fa-solid fa-chart-column"></i>Goal: $45000</p><p><i class="fa-regular fa-thumbs-up"></i>Raised: $5000</p></div>
+        <a href="#" class="card-link text-dark text-decoration-none link">Read More</a>
+      </div>
+    </div>
+    <div class="card xs-padding" style="width: 23rem;">
+      <img src="images/causes-2.jpg" class="card-img-top cardimage" alt="...">
+      <div class="card-body">
+        <h3 class="card-title">Big charity: build school for poor children.</h3>
+        <p class="card-text">Help today because tomorrow you may be the one who needs more helping!</p>
+       <div class="figure d-flex gap-3"><p><i class="fa-solid fa-chart-column"></i>Goal: $45000</p><p><i class="fa-regular fa-thumbs-up"></i>Raised: $5000</p></div>
+        <a href="#" class="card-link text-dark text-decoration-none link">Read More</a>
+      </div>
+    </div>
+    <div class="card xs-padding" style="width: 23rem;">
+      <img src="images/causes-3.jpg" class="card-img-top cardimage" alt="...">
+      <div class="card-body">
+        <h3 class="card-title">Building clean-water system for rural poor.</h3>
+        <p class="card-text">Help today because tomorrow you may be the one who needs more helping!</p>
+         <div class="figure  d-flex gap-3"><p><i class="fa-solid fa-chart-column"></i>Goal: $45000</p><p><i class="fa-regular fa-thumbs-up"></i>Raised: $5000</p></div>
+          <a href="#" class="card-link text-dark text-decoration-none link">Read More</a>
+      </div>
+    </div>
+  </div>
+  <!-- CAUSES SECTION END -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+    integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
