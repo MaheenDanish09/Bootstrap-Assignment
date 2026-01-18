@@ -68,11 +68,35 @@ body {
     opacity: 0.7 !important;
 }
 .causescards .btn{
-    left: 15em;
-    top: 1em;
-    padding: 5px 2px;
-    opacity: 0.8;
+    left: 15em !important;
+    top: 1em !important;
+    padding: 5px 2px !important;
+    opacity: 0.8 !important;
 }
 .causescards .btn:hover{
-    opacity: 1;
+    opacity: 1 !important;
+}
+.progress-bar{
+    background-color: #f8b864 !important;
+}
+.missioncards{
+    margin-top: 7em !important;
+    margin-bottom: 7em !important;
+}
+.cardimg:hover{
+    opacity: 0.8 !important;
+}
+.campaigns{
+    background-image: url(images/featured-bg.jpg) !important;
+    background-color: rgba(0, 0, 0, 0.05);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.img-brightness-hover {
+    transition: filter 0.3s ease-in-out !important;
+    filter: brightness(90%) !important; 
+}
+
+.img-brightness-hover:hover {
+    filter: brightness(120%) !important;
 }
