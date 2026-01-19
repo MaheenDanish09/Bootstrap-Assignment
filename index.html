@@ -49,7 +49,7 @@
   </nav>
   <!-- HEADER 1 END -->
   <!-- HEADER 2 START -->
-  <nav class="container-fluid navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="container-fluid navbar navbar-expand-lg bg-body-tertiary position-fixed z-3">
     <div class="container-lg">
       <img src="images/logo.png" alt="logo">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -306,10 +306,11 @@
       <div class="campaigncontent my-auto">
         <button class="btn text-white fw-medium py-2 px-3 my-2">Featured Campaigns</button>
         <h1 class="text-light my-3 fw-bold fs-1" style="max-width: 13em;">Featured project to built a School.</h1>
-        <p class="text-light my-4">The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives
+        <p class="text-light my-4">The secret to happiness lies in helping others. Never underestimate the difference
+          YOU can make in the lives
           of the poor, the abused and the helpless.</p>
-        <div class="progress bg-dark-subtle" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0"
-          aria-valuemax="100">
+        <div class="progress bg-dark-subtle" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+          aria-valuemin="0" aria-valuemax="100">
           <div class="progress-bar" style="width: 35%">35%</div>
         </div>
         <div class="figure d-flex gap-5 my-4">
@@ -322,16 +323,96 @@
         <img src="images/video.jpg" alt="" class="rounded-3 img-brightness-hover">
       </div>
     </div>
-    <!-- CAMPAIGNS SECTION END -->
-     <!-- VOLUNTEERS SECTION START -->
-
-      <!-- VOLUNTEERS SECTION END -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
-      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
-      crossorigin="anonymous"></script>
+  </div>
+  <!-- CAMPAIGNS SECTION END -->
+  <!-- VOLUNTEERS SECTION START -->
+  <div class="volunteers container-lg ">
+    <h1 class="text-center fw-semibold mt-5 mb-4">Meet Our Volunteers</h1>
+    <p class="text-center fw-medium">Help today because tomorrow you may be the one who <br>
+      needs more helping!</p>
+    <div class="items d-flex justify-content-between flex-wrap">
+      <div class="profiles d-flex flex-column gap-3 flex-wrap">
+        <div class="line1 d-flex gap-3 flex-wrap">
+          <div class=" img img1 position-relative" style="width: 245px; height: 245px;">
+            <img src="images/mission profile.jpg" alt="" style="width: 245px; height: 245px;">
+            <div class="text position-absolute">
+              <h5>Jonathan Smith</h5>
+              <p>Communicator</p>
+            </div>
+          </div>
+          <div class="img img2 position-relative" style="width: 245px; height: 245px;">
+            <img src="images/angelina.jpg" alt="" style="width: 245px; height: 245px;">
+            <div class="text position-absolute">
+              <h5>Angelina Rose</h5>
+              <p>Certified Reader</p>
+            </div>
+          </div>
+        </div>
+        <div class="line2 d-flex gap-3 flex-wrap">
+          <div class="img img3 position-relative" style="width: 245px; height: 245px;">
+            <img src="images/taylor.jpg" alt="" style="width: 245px; height: 245px;">
+            <div class="text position-absolute">
+              <h5>Taylor Swift</h5>
+              <p>Event Creator</p>
+            </div>
+          </div>
+          <div class="img img4 position-relative" style="width: 245px; height: 245px;">
+            <img src="images/michel.jpg" alt="" style="width: 245px; height: 245px;">
+            <div class="text position-absolute">
+              <h5>Michel Brown</h5>
+              <p>Internet Specialist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="volunteercontent my-auto" style="max-width: 55%;">
+        <h2 class="fw-semibold">Become a Volunteer?</h2>
+        <h2 class="mb-3 fw-semibold">Join your hand with us for a better life and beautiful future.</h2>
+        <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives
+          of
+          the poor, the abused and the helpless.</p>
+        <p><i class="fa-solid fa-check"></i>We are friendly to each other.</p>
+        <p><i class="fa-solid fa-check"></i>If you join with us, We will give you free training.</p>
+        <p><i class="fa-solid fa-check"></i>Its an opportunity to help poor children.</p>
+        <p><i class="fa-solid fa-check"></i>No goal requirements.</p>
+        <p><i class="fa-solid fa-check"></i>Joining is totally free. We don't need any money from you.</p>
+        <button class="btn text-white fw-medium py-2 px-3 my-3">Donate Now</button>
+      </div>
+    </div>
+  </div>
+  <!-- VOLUNTEERS SECTION END -->
+  <!-- COUNTER SECTION START -->
+  <div class="counter container-fluid">
+    <div class="boxes container-lg d-flex justify-content-between flex-md-wrap">
+      <div class="card1 text-center">
+        <i class="fa-solid fa-dollar-sign text-light fs-1"></i>
+        <h1 class="fw-bold">85389</h1>
+        <h5 class="text-light fw-bold fs-4">Money Donated</h5>
+      </div>
+      <div class="card2 text-center">
+        <i class="fa-regular fa-face-smile text-light fs-1"></i>
+        <h1 class="fw-bold">10693</h1>
+        <h5 class="text-light fw-bold fs-4">Volunteer Around The World</h5>
+      </div>
+      <div class="card3 text-center">
+        <i class="fa-regular fa-user text-light fs-1"></i>
+        <h1 class="fw-bold">50177</h1>
+        <h5 class="text-light fw-bold fs-4">People Impacted</h5>
+      </div>
+      <div class="card4 text-center">
+        <i class="fa-regular fa-message text-light fs-1"></i>
+        <h1 class="fw-bold">669</h1>
+        <h5 class="text-light fw-bold fs-4">Positive Feedbacks</h5>
+      </div>
+    </div>
+  </div>
+  <!-- COUNTER SECTION END -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+    integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
