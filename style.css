@@ -1,5 +1,6 @@
 body {
     font-family: Jost, sans-serif !important;
+    overflow-x: hidden !important;
 }
 
 .head1 {
@@ -162,4 +163,19 @@ body {
 
 .counter .boxes {
     padding-top: 12em !important;
+}
+
+.content1,
+.content2,
+.content3 {
+    border: 1px dashed rgb(218, 212, 212) !important;
+}
+
+.events .para {
+    margin-top: -30px !important;
+    margin-bottom: 3em !important;
+}
+
+.events h1 {
+    margin-bottom: 1.5em !important;
 }
