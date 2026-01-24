@@ -179,28 +179,81 @@ body {
 .events h1 {
     margin-bottom: 1.5em !important;
 }
-.reviewcards{
+
+.reviewcards {
     margin-left: 21em !important;
     margin-top: 3em !important;
     margin-bottom: 5em !important;
 }
-.storycards .link:hover{
+
+.storycards .link:hover {
     text-decoration: underline !important;
 }
-.storycards{
+
+.storycards {
     margin-left: 28em !important;
     margin-top: 3em !important;
     margin-bottom: 5em !important;
 }
-.storycards .card:hover{
-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px !important;
+
+.storycards .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px !important;
 }
-.storycards h2{
+
+.storycards h2 {
     font-size: x-large !important;
     font-weight: bold !important;
 }
-.logos img{
+
+.logos img {
     margin-right: 2em !important;
     margin-top: 1em !important;
     margin-bottom: 1em !important;
+}
+
+footer {
+    background-color: #222 !important;
+}
+
+footer .icons i {
+    color: #f8b864 !important;
+    margin-right: 10px !important;
+}
+
+footer .icons i:hover {
+    color: white !important;
+}
+
+.col2link {
+    text-decoration: none !important;
+}
+
+.col2link:hover {
+    color: #f8b864 !important;
+    text-decoration: underline !important;
+}
+
+.col3 p i {
+    color: #f8b864 !important;
+    font-weight: medium !important;
+    margin-right: 0.5em !important;
+}
+
+.credits .links a {
+    color: white !important;
+    text-decoration: none !important;
+    margin-right: 1em !important;
+}
+
+.credits .links a:hover {
+    color: #f8b864 !important;
+    text-decoration: underline !important;
+}
+
+.about,
+.causes {
+    background-image: url(images/page-header-bg.jpg) !important;
+    height: 400px !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
