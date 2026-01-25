@@ -250,10 +250,42 @@ footer .icons i:hover {
     text-decoration: underline !important;
 }
 
-.about,
-.causes {
+.abouttop,
+.causestop,
+.eventstop,
+.blogtop,
+.contacttop {
     background-image: url(images/page-header-bg.jpg) !important;
     height: 400px !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
+}
+
+.content {
+    text-align: start !important;
+}
+
+.contentwrap {
+    padding-top: 7em !important;
+}
+
+.content a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.content a:hover {
+    text-decoration: underline !important;
+}
+
+.join {
+    background-image: url(images/cta-bg.jpg) !important;
+    background-repeat: no-repeat !important;
+    height: 300px !important;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+
+.textpart {
+    padding-top: 6em !important;
 }
